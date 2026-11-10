@@ -2,7 +2,7 @@
 
 Software engineer in London. I build software that takes manual work out of real business operations: workflow applications, Python automation and AI integrations.
 
-I work part-time at Matbaa / UK Print House (UK Printhouse Ltd), a London print and design business, where alongside design work I build the internal tools and automation the business runs on. Before moving to the UK I spent about a year and a half as a full-stack .NET developer in Lahore. I'm completing an MSc in Data Science at the University of Hertfordshire (expected January 2027).
+I work part-time at Matbaa / UK Print House, a London print and design business. I joined in June 2025 doing print design and automating the repetitive work around it, spent 2026 on a full-time placement in data automation and e-commerce operations, and now build the software the business runs on alongside design and IT. Before moving to the UK I spent about a year and a half as a full-stack .NET developer in Lahore. I'm completing an MSc in Data Science at the University of Hertfordshire (expected January 2027).
 
 ## What I work on
 
@@ -12,9 +12,9 @@ I work part-time at Matbaa / UK Print House (UK Printhouse Ltd), a London print 
 
 ## Selected work
 
-**Job workflow app (Matbaa / UK Print House, in development).** An internal web application that replaces paper job cards with tracked jobs, design tickets and production stages, with role-based access. Next.js, TypeScript, Supabase, Vercel. *Code is company-owned and private.*
+**Matbaa Job Flow (in internal testing).** An internal web app that replaces paper job cards across sales, design and production: job intake synced with PrintLogic (the company's job and customer system), design tickets, Kanban production boards, QR scan-to-complete job sheets, collection and delivery desks, notifications and a shop-floor wall board. The data layer is 25 SQL migrations with row-level security (production staff never see prices; every stage change is logged), tested with SQL tests and Playwright role-login tests in GitHub Actions. Next.js, TypeScript, Supabase/PostgreSQL. Built with AI coding assistants. *Company-owned; code is private.*
 
-**Job-card automation (Matbaa / UK Print House).** A phone photo of a handwritten job card is read with Google Gemini, sent to the production printer queue (Fiery) and logged to Google Sheets. *Company-owned; not public.*
+**Job-card service (live).** A Python service on the office Mac mini: a phone photo of a handwritten job card is straightened, printed on the Fiery production printer, read with Google Gemini, logged to Google Sheets and archived as PDF. *Company-owned; not public.*
 
 **Product listing pipeline (Matbaa / UK Print House).** A Python pipeline that generates titles, descriptions and keywords for 100+ marketplace listings, with template-driven images and bulk uploads to Amazon, eBay and Etsy. *Company-owned; not public.*
 
