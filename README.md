@@ -12,7 +12,7 @@ I work part-time at Matbaa / UK Print House, a London print and design business.
 
 ## Selected work
 
-**Matbaa Job Flow (in internal testing).** An internal web app that replaces paper job cards across sales, design and production: job intake synced with PrintLogic (the company's job and customer system), design tickets, Kanban production boards, QR scan-to-complete job sheets, collection and delivery desks, notifications and a shop-floor wall board. The data layer is 25 SQL migrations with row-level security (production staff never see prices; every stage change is logged), tested with SQL tests and Playwright role-login tests in GitHub Actions. Next.js, TypeScript, Supabase/PostgreSQL. Built with AI coding assistants. *Company-owned; code is private.*
+**Matbaa Job Flow (in internal testing).** An internal web app that replaces paper job cards across sales, design and production: job intake synced with PrintLogic (the company's job and customer system), design tickets, Kanban production boards, QR scan-to-complete job sheets, collection and delivery desks, notifications and a shop-floor wall board. The data layer is 25 SQL migrations with row-level security (production staff never see prices; every stage change is logged), tested with SQL tests and Playwright role-login tests in GitHub Actions. Next.js, TypeScript, Supabase/PostgreSQL. *Company-owned; code is private.*
 
 **Job-card service (live).** A Python service on the office Mac mini: a phone photo of a handwritten job card is straightened, printed on the Fiery production printer, read with Google Gemini, logged to Google Sheets and archived as PDF. *Company-owned; not public.*
 
